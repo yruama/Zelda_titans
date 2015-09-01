@@ -8,86 +8,6 @@ type de coffre.
 }
 
 dialog{
-  id = "Quest-Dialog.chap1.Ysera",
-  text = [[
-Je t'attendais jeune
-aventurier. 
-Je suis Yrsa, membre
-du crépuscule. Je 
-suis protecteur de ce
-monde. Je sens que je 
-peux avoir confiance 
-en toi. Deux secrets
-se trouvent dans 
-cette salle. Il va 
-te falloir résoudre
-ces enigmes. Mais je 
-vais t'aider. Ecoute
-bien ce que je vais 
-te dire : $0
-Ce monde fut crée par
-trois Déesse. Din
-créa la Terre, puis 
-le ciel. Farore créa
-le centre du monde :
-Les êtres vivants.
-Pour terminé ce monde,
-Nayru créa l'ordre : 
-C'est grâce à elle que
-le soleil se lève à 
-l'Est pour se coucher 
-à l'ouest. Cependant
-je te rapporte ca 
-d'ancien manuscrits.
-D'autre disent que tout
-s'est passé dans 
-l'ordre contraire.
-]]
-}
-
-dialog{
-  id = "Quest-Dialog.chap1.attaque",
-  text = [[
-Au secours !!
-$0
-
-C'est ...
-...
-... Horrible !
-Ganondorf a attaqué
-le village !
-...
-$0
-Les gardes se sont 
-ralliés à lui. 
-Maintenant il se 
-dirige vers le Château.
-La Princesse est en 
-danger. 
-$0
-Fait attention !
-]]
-}
-
-dialog{
-  id = "Quest-Dialog.chap1.aventure",
-  text = [[
-C'est horrible !
-Il faut absolument
-aller sauver la 
-princesse.
-Mais il te faut un
-minimum d'équipement $0
-Si mes souvenirs sont 
-bon, il me semble 
-qu'il y a une épée
-cachée dans la grotte
-sous ta maison. nous 
-devrions allée voir !
-]]
-}
-
-dialog{
   id = "Quest-Dialog.chap1.castle.cinematique.0",
   text = [[
 Qu'est-ce que tu attends 
@@ -271,40 +191,80 @@ dialog{
 Debout ! 
 $0
 
-Tu vas être en retard 
-pour la cérémonie. 
-N'oublie pas que c'est 
-aujourd'hui que la 
-Princesse Zelda va 
-ouvrir la porte vers 
-la terre d'Or !
+Je sens qu'un nuage 
+sombrepasse au dessus 
+d'Hyrule...
 ]]
 }
 
 dialog{
   id = "Quest-Dialog.chap1.dream.1",
   text = [[
-Qu'est-ce que tu 
-attends ? On va 
-encore être les 
-derniers !
+Allez ! Il faut aller 
+retrouver la Princesse ! 
 ]]
 }
 
 dialog{
   id = "Quest-Dialog.chap1.dream.2",
   text = [[
-C'est pas trop tôt ! 
-Allez vite va au
-Château. Il se trouve 
-au nord-est.
+Ah enfin !
+Le château est au 
+Nord-Ouest d'Hyrule.
+Tu devrais récupérer
+ton équipement dans 
+la grotte...
+]]
+}
+
+dialog{
+  id = "Quest-Dialog.chap1.ss.voleur",
+  question = "1",
+  text = [[
+Qu'est-ce que tu veux ?
+Ah tu veux que je te laisse 
+passer ? Ok, mais ca coutera
+100 rubis.
+
+
+Alors ?
+   Ok !
+   Pas question !
+]]
+}
+
+dialog{
+  id = "Quest-Dialog.chap1.ss.voleur.course",
+  text = [[
+Qu'est-ce que tu fais ?!
+Je t'ai pourtant dis que je ne 
+te laisserais pas passer !
+Revient-là !
+]]
+}
+
+dialog{
+  id = "Quest-Dialog.chap1.ss.voleur.n",
+  text = [[
+Si tu ne veux pas payer
+alors fait demi-tour.
+]]
+}
+
+dialog{
+  id = "Quest-Dialog.chap1.ss.voleur.o",
+  text = [[
+Petit fourbe tu as cru pouvoir
+m'avoir comme çà ?! Allez
+va t-en ! Je ne veux plus 
+te voir.
 ]]
 }
 
 dialog{
   id = "Quest-Dialog.chap2.hylia",
   text = [[
-  Bonjour
+  Ah ok je dois tout
 ]]
 }
 
@@ -323,28 +283,6 @@ dialog{
 Qu'est ce que tu fais ?
 Il faut que tu ailles
 chercher ton équipement !
-]]
-}
-
-dialog{
-  id = "Quest-Help.chap1.dungeon1.boss_key",
-  text = [[
-Tu as entendu ce bruit ?
-Quelque chose a du
-apparaiter dans le donjon.
-Il faut qu'on trouve quoi !
-]]
-}
-
-dialog{
-  id = "Quest-Help.chap1.dungeon1.porte",
-  text = [[
-J'ai cru entendre le
-bruit d'une porte.
-Nous devrions chercher
-si une des portes du
-donjon ne s'est pas
-ouverte
 ]]
 }
 
@@ -406,82 +344,6 @@ donjon.
 }
 
 dialog{
-  id = "Quest-Secondary.crepuscule.defi.fail",
-  text = [[
-Tu n'as pas réussi.
-Revient me voir quand 
-tu seras prêt !
-]]
-}
-
-dialog{
-  id = "Quest-Secondary.crepuscule.defi.ok",
-  text = [[
-Whaou ! je ne pensais 
-pas que tu étais capable 
-de tout ça !
-Tu mérites ta récompense.
-]]
-}
-
-dialog{
-  id = "Quest-Secondary.crepuscule.defi.ttt",
-  text = [[
-Nous allons jouer au 
-morpion. Le but est 
-simple : Le premier qui 
-aligne 3 pions gagne. 
-Pour poser un pion met 
-toi devant la case
-et appuie sur la touche
-action. Je suis fair 
-Play je te laisse même 
-l'avantage du centre.
-Bonne chance !
-]]
-}
-
-dialog{
-  id = "Quest-Secondary.crepuscule.item.clayKey",
-  text = [[
-Voici la clé de terre.
-Elle te permet d'entrer
-dans un donjon caché. 
-Au coeur de celui-ci tu
-trouveras des secrets sur
-Hyrule.
-]]
-}
-
-dialog{
-  id = "Quest-Secondary.crepuscule.item.woodenKey",
-  text = [[
-Voici la clé de bois.
-Elle te permet d'entrer
-dans un donjon caché. 
-Au coeur de celui-ci tu
-trouveras des secrets sur
-Hyrule.
-]]
-}
-
-dialog{
-  id = "Quest-Secondary.crepuscule.pres",
-  text = [[
-Bonjour $0
-Je suis un membre de 
-l'ordre du Crépuscule.
-Je garde depuis la nuit
-des temps un secret sur
-le monde d'Hyrule. $0
-Seuls les grands 
-aventuriers au coeur pur 
-peuvent prétendre 
-recevoir mon trésor. $0
-]]
-}
-
-dialog{
   id = "Quest-Secondary.ruppebag.1",
   question = "1",
   text = [[
@@ -516,33 +378,17 @@ dialog{
   id = "Quest-Secondary.ruppebag.1.o",
   text = [[
 AH ! c'est ça que j'aime 
-chez les aventuriers ! 
-Ils aiment le gout du 
-risque. Nous allons faire 
-un puissance 4. Le but 
-est simple il faut aligner 
-4 blocs avant l'autre 
-joueur. Pour poser un bloc 
-il te suffit de te mettre 
+chez les aventurier ! Ils
+aiment le gout du rique. 
+Nous allons faire un 
+puissance 4. Le but est 
+simple il faut alligner 4
+bloc avant l'autre joueur
+Pour poser un bloc il te 
+suffit de te mettre 
 devant la colonne et 
 d'utiliser la touche
 action.
-]]
-}
-
-dialog{
-  id = "Quest-Secondary.ruppebag.1.pl",
-  text = [[
-Tu es bientôt finit !
-]]
-}
-
-dialog{
-  id = "Quest-Secondary.ruppebag.1.pw",
-  text = [[
-Si tu crois que je 
-vais te laisser me
-battre ....
 ]]
 }
 
@@ -560,12 +406,13 @@ revanche !
 dialog{
   id = "Quest-Secondary.ruppebag.win",
   text = [[
-  Félécitation ! Tu 
-  as réussi à me battre.
-  Comme promis, je te 
-  laisse prendre ton
-  objet rare dans le
-  coffre.
+Bravo !
+Tu as gagné. Comme 
+promis je te donne un 
+objet ULTRA rare ! Il 
+est dans le coffre au 
+font de la salle.
+Bon chance dans ta quête.
 ]]
 }
 
@@ -627,16 +474,6 @@ sécurité. A bientôt ... $0
 }
 
 dialog{
-  id = "_treasure.apple.1",
-  text = [[
-Félécitation, tu as 
-trouvé une pomme. Mais 
-tu ne sais pas à quoi ça 
-peut servir.
-]]
-}
-
-dialog{
   id = "_treasure.big_key.1",
   text = [[
 Tu as trouvé la grosse
@@ -645,19 +482,6 @@ clé ! $0
 Avec, tu peux ouvrir les
 gros coffres.
 
-]]
-}
-
-dialog{
-  id = "_treasure.boomerang.1",
-  text = [[
-Tu as obtenu 
-le boomerang ! $0
-
-Lance le sur les ennemis
-pour les immobiliser ou
-sur des objets pour les
-activer !
 ]]
 }
 
@@ -760,17 +584,6 @@ ennemis !
 
 dialog{
   id = "_treasure.small_key.1",
-  text = [[
-Tu as trouvé une
-petite clé. $0
-
-Elle ouvre uniquement
-les portes de ce donjon.
-]]
-}
-
-dialog{
-  id = "_treasure.small_key.2",
   text = [[
 Tu as trouvé une
 petite clé. $0

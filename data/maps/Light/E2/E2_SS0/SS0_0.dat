@@ -1,6 +1,6 @@
 properties{
   x = 960,
-  y = 240,
+  y = 0,
   width = 320,
   height = 240,
   world = "dungeon_0",
@@ -216,33 +216,6 @@ tile{
   pattern = "381",
 }
 
-tile{
-  layer = 1,
-  x = 136,
-  y = 24,
-  width = 32,
-  height = 16,
-  pattern = "343",
-}
-
-tile{
-  layer = 1,
-  x = 136,
-  y = 200,
-  width = 32,
-  height = 16,
-  pattern = "345",
-}
-
-tile{
-  layer = 1,
-  x = 280,
-  y = 104,
-  width = 16,
-  height = 32,
-  pattern = "344",
-}
-
 wall{
   layer = 1,
   x = -8,
@@ -272,7 +245,7 @@ wall{
 destination{
   name = "from_trou",
   layer = 1,
-  x = 152,
+  x = 160,
   y = 125,
   direction = 2,
   default = true,

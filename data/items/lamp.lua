@@ -90,10 +90,6 @@ function item:on_npc_interaction(npc)
   end
 end
 
-function item:on_collision_fire(npc)
-  print('yolo')
-end
-
 -- Called when fire touches an NPC linked to the Lamp.
 function item:on_npc_collision_fire(npc)
 

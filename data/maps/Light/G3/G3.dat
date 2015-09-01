@@ -10475,15 +10475,6 @@ tile{
   pattern = "37",
 }
 
-sensor{
-  name = "sensor_sword",
-  layer = 0,
-  x = 520,
-  y = 637,
-  width = 32,
-  height = 16,
-}
-
 chest{
   layer = 0,
   x = 512,
@@ -10562,9 +10553,57 @@ teletransporter{
 destructible{
   layer = 0,
   x = 280,
+  y = 389,
+  sprite = "entities/stone_small_white",
+}
+
+destructible{
+  layer = 0,
+  x = 280,
   y = 405,
   sprite = "entities/stone_small_white",
-  weight = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 280,
+  y = 421,
+  sprite = "entities/stone_small_white",
+}
+
+destructible{
+  layer = 0,
+  x = 296,
+  y = 421,
+  sprite = "entities/stone_small_white",
+}
+
+destructible{
+  layer = 0,
+  x = 312,
+  y = 421,
+  sprite = "entities/stone_small_white",
+}
+
+destructible{
+  layer = 0,
+  x = 328,
+  y = 421,
+  sprite = "entities/stone_small_white",
+}
+
+destructible{
+  layer = 0,
+  x = 328,
+  y = 405,
+  sprite = "entities/stone_small_white",
+}
+
+destructible{
+  layer = 0,
+  x = 328,
+  y = 389,
+  sprite = "entities/stone_small_white",
 }
 
 sensor{
@@ -10865,10 +10904,10 @@ stairs{
 }
 
 sensor{
-  name = "sensor_quete",
+  name = "sensor_epee",
   layer = 0,
   x = 520,
-  y = 637,
+  y = 581,
   width = 32,
   height = 16,
 }
@@ -10973,72 +11012,6 @@ sensor{
   y = 541,
   width = 16,
   height = 48,
-}
-
-destructible{
-  layer = 0,
-  x = 280,
-  y = 389,
-  sprite = "entities/stone_small_white",
-  weight = 1,
-}
-
-destructible{
-  layer = 0,
-  x = 280,
-  y = 421,
-  sprite = "entities/stone_small_white",
-  weight = 1,
-}
-
-destructible{
-  layer = 0,
-  x = 296,
-  y = 421,
-  sprite = "entities/stone_small_white",
-  weight = 1,
-}
-
-destructible{
-  layer = 0,
-  x = 312,
-  y = 421,
-  sprite = "entities/stone_small_white",
-  weight = 1,
-}
-
-destructible{
-  layer = 0,
-  x = 328,
-  y = 421,
-  sprite = "entities/stone_small_white",
-  weight = 1,
-}
-
-destructible{
-  layer = 0,
-  x = 328,
-  y = 405,
-  sprite = "entities/stone_small_white",
-  weight = 1,
-}
-
-destructible{
-  layer = 0,
-  x = 328,
-  y = 389,
-  sprite = "entities/stone_small_white",
-  weight = 1,
-}
-
-npc{
-  name = "ausecours",
-  layer = 0,
-  x = 688,
-  y = 685,
-  direction = 2,
-  subtype = 1,
-  sprite = "npc/newlink6",
 }
 
 tile{

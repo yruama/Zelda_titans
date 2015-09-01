@@ -1,12 +1,8 @@
 map{ id = "0", description = "Intro" }
-map{ id = "Dark/A1/A1_0", description = "A1 - 0" }
-map{ id = "Dark/B0/B0_0", description = "0" }
-map{ id = "Dark/B1/B1_0", description = "0" }
+map{ id = "Dark/A0", description = "A0_Outside" }
 map{ id = "Light/E1/E1", description = "E1_Outside" }
 map{ id = "Light/E1/dungeon_1/0", description = "D1_0" }
 map{ id = "Light/E1/dungeon_1/1", description = "D1_1" }
-map{ id = "Light/E1/dungeon_1/10", description = "D1_10" }
-map{ id = "Light/E1/dungeon_1/11", description = "D1_11" }
 map{ id = "Light/E1/dungeon_1/2", description = "D1_2" }
 map{ id = "Light/E1/dungeon_1/3", description = "D1_3" }
 map{ id = "Light/E1/dungeon_1/4", description = "D1_4" }
@@ -18,8 +14,8 @@ map{ id = "Light/E1/dungeon_1/9", description = "D1_9" }
 map{ id = "Light/E2/Castle/chap1/0", description = "C0" }
 map{ id = "Light/E2/Castle/chap1/1", description = "C1" }
 map{ id = "Light/E2/E2", description = "E2_Outside" }
-map{ id = "Light/E2/E2_SS0/SS0_0", description = "Entrée" }
-map{ id = "Light/E2/E2_SS0/SS0_1", description = "Zone trésor" }
+map{ id = "Light/E2/E2_SS0/SS0_0", description = "SS0_0" }
+map{ id = "Light/E2/E2_SS0/SS0_1", description = "SS0_1" }
 map{ id = "Light/E2/E2_SS0/SS0_10", description = "SS0_10" }
 map{ id = "Light/E2/E2_SS0/SS0_2", description = "SS0_2" }
 map{ id = "Light/E2/E2_SS0/SS0_3", description = "SS0_3" }
@@ -137,13 +133,7 @@ sprite{ id = "menus/solarus_logo", description = "Menu: Solarus logo" }
 sprite{ id = "menus/zones_map/sous-sol_chateau", description = "test" }
 sprite{ id = "npc/navi", description = "navi" }
 sprite{ id = "npc/newlink1", description = "newlink1" }
-sprite{ id = "npc/newlink2", description = "newlink2" }
-sprite{ id = "npc/newlink6", description = "newlink6" }
-sprite{ id = "npc/newlink7", description = "newlink7" }
-sprite{ id = "npc/newlink8", description = "newlink8" }
 sprite{ id = "npc/npc_head", description = "npc_head" }
-sprite{ id = "npc/sahasrahla", description = "sahasrahla" }
-sprite{ id = "npc/solarus_child1", description = "/solarus_child1" }
 sprite{ id = "npc/static_villager1", description = "static_villager1" }
 sprite{ id = "npc/static_villager10", description = "static_villager10" }
 sprite{ id = "npc/static_villager11", description = "static_villager11" }
@@ -201,7 +191,6 @@ sound{ id = "navi", description = "navi" }
 sound{ id = "picked_item", description = "picked_item" }
 sound{ id = "running", description = "running" }
 sound{ id = "running_obstacle", description = "running_obstacle" }
-sound{ id = "secret", description = "secret" }
 sound{ id = "shield", description = "shield" }
 sound{ id = "splash", description = "splash" }
 sound{ id = "stairs_down_end", description = "stairs_down_end" }
@@ -224,8 +213,6 @@ sound{ id = "walk_on_grass", description = "walk_on_grass" }
 sound{ id = "walk_on_water", description = "walk_on_water" }
 sound{ id = "wrong", description = "wrong" }
 
-item{ id = "apple", description = "apple" }
-item{ id = "apples_counter", description = "apple_counter" }
 item{ id = "arrow", description = "arrow" }
 item{ id = "big_key", description = "big_key" }
 item{ id = "bomb", description = "bomb" }
@@ -239,32 +226,20 @@ item{ id = "bottle_2", description = "bottle_2" }
 item{ id = "bottle_3", description = "bottle_3" }
 item{ id = "bottle_4", description = "bottle_4" }
 item{ id = "bow", description = "bow" }
-item{ id = "cane_of_somaria", description = "cane_of_somaria" }
-item{ id = "clay_key", description = "clay_key" }
 item{ id = "compass", description = "compass" }
-item{ id = "darkness", description = "Tenebre" }
 item{ id = "feather", description = "feather" }
-item{ id = "fire", description = "Feu" }
 item{ id = "fire_stone", description = "fire_stone" }
 item{ id = "flippers", description = "flippers" }
 item{ id = "glove", description = "glove" }
 item{ id = "heart", description = "heart" }
 item{ id = "heart_container", description = "heart_container" }
-item{ id = "hookshot", description = "Grappin" }
-item{ id = "ice", description = "Glace" }
-item{ id = "iron_key", description = "iron_key" }
 item{ id = "lamp", description = "lamp" }
-item{ id = "light", description = "Eclair" }
 item{ id = "magic_bar", description = "magic_bar" }
-item{ id = "magic_cape", description = "Cape Magique" }
 item{ id = "magic_flask", description = "magic_flask" }
 item{ id = "map", description = "map" }
-item{ id = "nothing", description = "vide" }
-item{ id = "ordreducrepuscule", description = "Ordre du Crepuscule" }
 item{ id = "pegasus_shoes", description = "pegasus_shoes" }
 item{ id = "piece_of_heart", description = "piece_of_heart" }
 item{ id = "quiver", description = "quiver" }
-item{ id = "rock_key", description = "Rock key" }
 item{ id = "rupee", description = "rupee" }
 item{ id = "rupee_bag", description = "rupee_bag" }
 item{ id = "shield", description = "shield" }

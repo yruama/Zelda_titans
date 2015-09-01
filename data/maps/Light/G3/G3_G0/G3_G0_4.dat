@@ -1,0 +1,973 @@
+properties{
+  x = 320,
+  y = 0,
+  width = 320,
+  height = 480,
+  world = "G3_G0",
+  floor = -2,
+  tileset = "3",
+  music = "cave",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 440,
+  width = 24,
+  height = 24,
+  pattern = "47",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 440,
+  width = 24,
+  height = 24,
+  pattern = "48",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 16,
+  width = 24,
+  height = 24,
+  pattern = "45",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 16,
+  width = 24,
+  height = 24,
+  pattern = "46",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 40,
+  width = 24,
+  height = 16,
+  pattern = "51",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 440,
+  width = 112,
+  height = 24,
+  pattern = "52",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 40,
+  width = 24,
+  height = 400,
+  pattern = "50",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 16,
+  width = 240,
+  height = 24,
+  pattern = "49",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 440,
+  width = 112,
+  height = 24,
+  pattern = "52",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 440,
+  width = 8,
+  height = 16,
+  pattern = "288",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 440,
+  width = 8,
+  height = 16,
+  pattern = "287",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 440,
+  width = 16,
+  height = 16,
+  pattern = "351",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 400,
+  width = 16,
+  height = 8,
+  pattern = "289",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 48,
+  width = 224,
+  height = 384,
+  pattern = "2",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 256,
+  width = 240,
+  height = 80,
+  pattern = "340",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 256,
+  width = 240,
+  height = 8,
+  pattern = "332",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 328,
+  width = 240,
+  height = 8,
+  pattern = "334",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 256,
+  width = 8,
+  height = 80,
+  pattern = "333",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 328,
+  width = 8,
+  height = 8,
+  pattern = "329",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 256,
+  width = 8,
+  height = 8,
+  pattern = "328",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 256,
+  width = 8,
+  height = 80,
+  pattern = "335",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 256,
+  width = 8,
+  height = 8,
+  pattern = "331",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 328,
+  width = 8,
+  height = 8,
+  pattern = "330",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 280,
+  width = 32,
+  height = 32,
+  pattern = "2",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 312,
+  width = 32,
+  height = 8,
+  pattern = "332",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 280,
+  width = 8,
+  height = 32,
+  pattern = "333",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 280,
+  width = 8,
+  height = 32,
+  pattern = "335",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 272,
+  width = 32,
+  height = 8,
+  pattern = "334",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 272,
+  width = 8,
+  height = 8,
+  pattern = "337",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 312,
+  width = 8,
+  height = 8,
+  pattern = "338",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 272,
+  width = 8,
+  height = 8,
+  pattern = "336",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 312,
+  width = 8,
+  height = 8,
+  pattern = "339",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 336,
+  width = 16,
+  height = 16,
+  pattern = "364",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 336,
+  width = 16,
+  height = 16,
+  pattern = "364",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 336,
+  width = 16,
+  height = 16,
+  pattern = "364",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 48,
+  width = 8,
+  height = 384,
+  pattern = "182",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 432,
+  width = 8,
+  height = 8,
+  pattern = "16",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 432,
+  width = 8,
+  height = 8,
+  pattern = "17",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 432,
+  width = 224,
+  height = 8,
+  pattern = "180",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 48,
+  width = 8,
+  height = 384,
+  pattern = "181",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "14",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "15",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 40,
+  width = 224,
+  height = 8,
+  pattern = "179",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 56,
+  width = 16,
+  height = 8,
+  pattern = "289",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 96,
+  width = 24,
+  height = 304,
+  pattern = "51",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 80,
+  width = 16,
+  height = 24,
+  pattern = "368",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 80,
+  width = 8,
+  height = 24,
+  pattern = "365",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 80,
+  width = 8,
+  height = 24,
+  pattern = "366",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 240,
+  width = 16,
+  height = 16,
+  pattern = "364",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 240,
+  width = 16,
+  height = 16,
+  pattern = "364",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 240,
+  width = 16,
+  height = 16,
+  pattern = "364",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 240,
+  width = 16,
+  height = 16,
+  pattern = "364",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 240,
+  width = 16,
+  height = 16,
+  pattern = "364",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 240,
+  width = 16,
+  height = 16,
+  pattern = "364",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 408,
+  width = 16,
+  height = 16,
+  pattern = "295",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "295",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 104,
+  width = 32,
+  height = 8,
+  pattern = "367",
+}
+
+wall{
+  layer = 0,
+  x = 144,
+  y = 440,
+  width = 8,
+  height = 40,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 168,
+  y = 440,
+  width = 8,
+  height = 40,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+crystal{
+  layer = 0,
+  x = 160,
+  y = 301,
+}
+
+destructible{
+  layer = 0,
+  x = 232,
+  y = 349,
+  sprite = "entities/pot",
+}
+
+destructible{
+  layer = 0,
+  x = 248,
+  y = 349,
+  treasure_name = "heart",
+  sprite = "entities/pot",
+}
+
+destructible{
+  layer = 0,
+  x = 264,
+  y = 349,
+  sprite = "entities/pot",
+}
+
+chest{
+  layer = 0,
+  x = 56,
+  y = 349,
+  treasure_name = "small_key",
+  treasure_savegame_variable = "c2",
+  sprite = "entities/chest",
+}
+
+crystal_block{
+  layer = 0,
+  x = 40,
+  y = 368,
+  width = 64,
+  height = 16,
+  subtype = 1,
+}
+
+crystal_block{
+  layer = 0,
+  x = 88,
+  y = 336,
+  width = 16,
+  height = 32,
+  subtype = 1,
+}
+
+switch{
+  name = "revel_secret",
+  layer = 0,
+  x = 152,
+  y = 232,
+  subtype = "walkable",
+  sprite = "entities/switch",
+  sound = "switch",
+  needs_block = false,
+  inactivate_when_leaving = false,
+}
+
+destructible{
+  layer = 0,
+  x = 232,
+  y = 253,
+  sprite = "entities/pot",
+}
+
+destructible{
+  layer = 0,
+  x = 264,
+  y = 253,
+  sprite = "entities/pot",
+}
+
+destructible{
+  layer = 0,
+  x = 72,
+  y = 253,
+  sprite = "entities/pot",
+}
+
+enemy{
+  layer = 0,
+  x = 96,
+  y = 197,
+  direction = 0,
+  breed = "tentacle",
+}
+
+enemy{
+  layer = 0,
+  x = 192,
+  y = 189,
+  direction = 0,
+  breed = "tentacle",
+  treasure_name = "heart",
+}
+
+enemy{
+  layer = 0,
+  x = 240,
+  y = 109,
+  direction = 0,
+  breed = "tentacle",
+}
+
+enemy{
+  layer = 0,
+  x = 176,
+  y = 381,
+  direction = 0,
+  breed = "tentacle",
+}
+
+crystal_block{
+  layer = 0,
+  x = 112,
+  y = 48,
+  width = 96,
+  height = 16,
+  subtype = 1,
+}
+
+crystal_block{
+  layer = 0,
+  x = 192,
+  y = 64,
+  width = 16,
+  height = 80,
+  subtype = 1,
+}
+
+crystal_block{
+  layer = 0,
+  x = 112,
+  y = 128,
+  width = 80,
+  height = 16,
+  subtype = 1,
+}
+
+crystal_block{
+  layer = 0,
+  x = 112,
+  y = 64,
+  width = 16,
+  height = 64,
+  subtype = 1,
+}
+
+teletransporter{
+  layer = 0,
+  x = -16,
+  y = 0,
+  width = 16,
+  height = 480,
+  transition = "scrolling",
+  destination_map = "Light/G3/G3_G0/G3_G0_5",
+  destination = "_side",
+}
+
+stairs{
+  layer = 0,
+  x = 152,
+  y = 440,
+  direction = 3,
+  subtype = 2,
+}
+
+teletransporter{
+  layer = 0,
+  x = 152,
+  y = 440,
+  width = 16,
+  height = 16,
+  destination_map = "Light/G3/G3_G0/G3_G0_3",
+}
+
+destination{
+  layer = 0,
+  x = 160,
+  y = 437,
+  direction = 1,
+  default = true,
+}
+
+stairs{
+  name = "zse",
+  layer = 0,
+  x = 152,
+  y = 88,
+  direction = 3,
+  subtype = 3,
+}
+
+teletransporter{
+  name = "zst",
+  layer = 0,
+  x = 152,
+  y = 88,
+  width = 16,
+  height = 16,
+  destination_map = "Light/G3/G3_G0/G3_G0_6",
+}
+
+destination{
+  name = "secret",
+  layer = 0,
+  x = 160,
+  y = 77,
+  direction = 1,
+}
+
+wall{
+  layer = 0,
+  x = -16,
+  y = 56,
+  width = 56,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = -16,
+  y = 80,
+  width = 56,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = -8,
+  y = 424,
+  width = 48,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+wall{
+  layer = 0,
+  x = -8,
+  y = 400,
+  width = 48,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+dynamic_tile{
+  name = "zone_secret",
+  layer = 0,
+  x = 144,
+  y = 80,
+  pattern = "2",
+  width = 32,
+  height = 32,
+  enabled_at_start = true,
+}
+
+destructible{
+  layer = 0,
+  x = 248,
+  y = 253,
+  treasure_name = "heart",
+  sprite = "entities/pot",
+}
+
+destructible{
+  layer = 0,
+  x = 88,
+  y = 253,
+  treasure_name = "heart",
+  sprite = "entities/pot",
+}
+
+destructible{
+  layer = 0,
+  x = 56,
+  y = 253,
+  treasure_name = "heart",
+  sprite = "entities/pot",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 424,
+  width = 24,
+  height = 16,
+  pattern = "51",
+}
+
+tile{
+  layer = 1,
+  x = 24,
+  y = 424,
+  width = 16,
+  height = 8,
+  pattern = "291",
+}
+
+tile{
+  layer = 1,
+  x = 24,
+  y = 424,
+  width = 16,
+  height = 8,
+  pattern = "292",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 456,
+  width = 32,
+  height = 8,
+  pattern = "310",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 80,
+  width = 24,
+  height = 16,
+  pattern = "51",
+}
+
+tile{
+  layer = 1,
+  x = 24,
+  y = 80,
+  width = 16,
+  height = 8,
+  pattern = "291",
+}
+
+tile{
+  layer = 1,
+  x = 24,
+  y = 80,
+  width = 16,
+  height = 8,
+  pattern = "292",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 464,
+  width = 320,
+  height = 16,
+  pattern = "170",
+}
+
+tile{
+  layer = 2,
+  x = 304,
+  y = 0,
+  width = 16,
+  height = 464,
+  pattern = "170",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 0,
+  width = 304,
+  height = 16,
+  pattern = "170",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 16,
+  width = 16,
+  height = 448,
+  pattern = "170",
+}
+
+tile{
+  layer = 2,
+  x = 16,
+  y = 400,
+  width = 8,
+  height = 32,
+  pattern = "305",
+}
+
+tile{
+  layer = 2,
+  x = 16,
+  y = 56,
+  width = 8,
+  height = 32,
+  pattern = "305",
+}
+

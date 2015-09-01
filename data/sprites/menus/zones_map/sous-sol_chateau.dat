@@ -1,0 +1,7 @@
+animation{
+  name = "default",
+  src_image = "menus/zones_map/ss_chateau.png",
+  directions = {
+    { x = 56, y = 96, frame_width = 208, frame_height = 32, origin_x = 104, origin_y = 16 },
+  },
+}

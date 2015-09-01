@@ -1,0 +1,630 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 500,
+  height = 400,
+  world = "castle",
+  floor = 0,
+  tileset = "12",
+  music = "castle",
+}
+
+destination{
+  name = "hide",
+  layer = 0,
+  x = 240,
+  y = 101,
+  direction = 1,
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 48,
+  width = 400,
+  height = 304,
+  pattern = "613",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 48,
+  width = 160,
+  height = 56,
+  pattern = "589",
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 120,
+  width = 8,
+  height = 232,
+  pattern = "399",
+}
+
+tile{
+  layer = 1,
+  x = 280,
+  y = 128,
+  width = 8,
+  height = 224,
+  pattern = "399",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 360,
+  width = 208,
+  height = 24,
+  pattern = "52",
+}
+
+tile{
+  layer = 1,
+  x = 256,
+  y = 360,
+  width = 208,
+  height = 24,
+  pattern = "52",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 16,
+  width = 24,
+  height = 24,
+  pattern = "45",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 360,
+  width = 24,
+  height = 24,
+  pattern = "47",
+}
+
+tile{
+  layer = 1,
+  x = 456,
+  y = 360,
+  width = 24,
+  height = 24,
+  pattern = "48",
+}
+
+tile{
+  layer = 1,
+  x = 456,
+  y = 16,
+  width = 24,
+  height = 24,
+  pattern = "46",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 16,
+  width = 416,
+  height = 24,
+  pattern = "49",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 40,
+  width = 24,
+  height = 320,
+  pattern = "51",
+}
+
+tile{
+  layer = 1,
+  x = 456,
+  y = 40,
+  width = 24,
+  height = 320,
+  pattern = "50",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "14",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 352,
+  width = 8,
+  height = 8,
+  pattern = "16",
+}
+
+tile{
+  layer = 1,
+  x = 448,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "15",
+}
+
+tile{
+  layer = 1,
+  x = 448,
+  y = 352,
+  width = 8,
+  height = 8,
+  pattern = "17",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 352,
+  width = 400,
+  height = 8,
+  pattern = "236",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 40,
+  width = 400,
+  height = 8,
+  pattern = "179",
+}
+
+tile{
+  layer = 1,
+  x = 448,
+  y = 48,
+  width = 8,
+  height = 304,
+  pattern = "238",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 48,
+  width = 8,
+  height = 304,
+  pattern = "237",
+}
+
+tile{
+  layer = 1,
+  x = 232,
+  y = 360,
+  width = 8,
+  height = 16,
+  pattern = "74",
+}
+
+tile{
+  layer = 1,
+  x = 256,
+  y = 360,
+  width = 8,
+  height = 16,
+  pattern = "75",
+}
+
+tile{
+  layer = 1,
+  x = 240,
+  y = 360,
+  width = 16,
+  height = 16,
+  pattern = "77",
+}
+
+tile{
+  layer = 1,
+  x = 216,
+  y = 128,
+  width = 64,
+  height = 224,
+  pattern = "589",
+}
+
+tile{
+  layer = 1,
+  x = 200,
+  y = 304,
+  width = 16,
+  height = 16,
+  pattern = "277",
+}
+
+tile{
+  layer = 1,
+  x = 200,
+  y = 240,
+  width = 16,
+  height = 16,
+  pattern = "277",
+}
+
+tile{
+  layer = 1,
+  x = 280,
+  y = 304,
+  width = 16,
+  height = 16,
+  pattern = "277",
+}
+
+tile{
+  layer = 1,
+  x = 280,
+  y = 240,
+  width = 16,
+  height = 16,
+  pattern = "277",
+}
+
+tile{
+  layer = 1,
+  x = 216,
+  y = 120,
+  width = 72,
+  height = 8,
+  pattern = "399",
+}
+
+tile{
+  layer = 1,
+  x = 280,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "399",
+}
+
+tile{
+  layer = 1,
+  x = 160,
+  y = 40,
+  width = 8,
+  height = 64,
+  pattern = "528",
+}
+
+tile{
+  layer = 1,
+  x = 328,
+  y = 40,
+  width = 8,
+  height = 64,
+  pattern = "529",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 96,
+  width = 64,
+  height = 8,
+  pattern = "594",
+}
+
+tile{
+  layer = 1,
+  x = 232,
+  y = 40,
+  width = 32,
+  height = 32,
+  pattern = "600",
+}
+
+tile{
+  layer = 1,
+  x = 264,
+  y = 96,
+  width = 64,
+  height = 8,
+  pattern = "594",
+}
+
+tile{
+  layer = 1,
+  x = 232,
+  y = 96,
+  width = 32,
+  height = 8,
+  pattern = "590",
+}
+
+tile{
+  layer = 1,
+  x = 160,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "526",
+}
+
+tile{
+  layer = 1,
+  x = 328,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "527",
+}
+
+custom_entity{
+  name = "fire",
+  layer = 1,
+  x = 248,
+  y = 149,
+  direction = 0,
+  sprite = "entities/shadow",
+}
+
+npc{
+  layer = 1,
+  x = 184,
+  y = 221,
+  direction = 0,
+  subtype = 1,
+  sprite = "enemies/green_knight_soldier",
+}
+
+npc{
+  layer = 1,
+  x = 184,
+  y = 285,
+  direction = 0,
+  subtype = 1,
+  sprite = "enemies/green_knight_soldier",
+}
+
+npc{
+  layer = 1,
+  x = 184,
+  y = 349,
+  direction = 0,
+  subtype = 1,
+  sprite = "enemies/green_knight_soldier",
+}
+
+npc{
+  layer = 1,
+  x = 312,
+  y = 349,
+  direction = 2,
+  subtype = 1,
+  sprite = "enemies/green_knight_soldier",
+}
+
+npc{
+  layer = 1,
+  x = 312,
+  y = 285,
+  direction = 2,
+  subtype = 1,
+  sprite = "enemies/green_knight_soldier",
+}
+
+npc{
+  layer = 1,
+  x = 312,
+  y = 221,
+  direction = 2,
+  subtype = 1,
+  sprite = "enemies/green_knight_soldier",
+}
+
+npc{
+  name = "Zelda",
+  layer = 1,
+  x = 248,
+  y = 93,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/zelda",
+}
+
+npc{
+  name = "Ganon",
+  layer = 1,
+  x = 248,
+  y = 173,
+  direction = 1,
+  subtype = 1,
+  sprite = "enemies/ganon",
+}
+
+custom_entity{
+  name = "middle",
+  layer = 1,
+  x = 248,
+  y = 125,
+  direction = 0,
+}
+
+destination{
+  layer = 1,
+  x = 248,
+  y = 381,
+  direction = 1,
+  default = true,
+}
+
+switch{
+  name = "cinematique",
+  layer = 1,
+  x = 240,
+  y = 352,
+  subtype = "walkable",
+  needs_block = false,
+  inactivate_when_leaving = false,
+}
+
+npc{
+  name = "gh",
+  layer = 1,
+  x = 120,
+  y = 245,
+  direction = -1,
+  subtype = 1,
+  sprite = "enemies/ganon_head",
+}
+
+npc{
+  name = "zh",
+  layer = 1,
+  x = 368,
+  y = 109,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/zelda_head",
+  behavior = "item#arrow",
+}
+
+npc{
+  name = "soldat",
+  layer = 1,
+  x = 416,
+  y = 141,
+  direction = 2,
+  subtype = 1,
+  sprite = "enemies/blue_knight_soldier",
+}
+
+npc{
+  name = "kid",
+  layer = 1,
+  x = 416,
+  y = 157,
+  direction = 2,
+  subtype = 1,
+  sprite = "npc/villager1",
+}
+
+npc{
+  name = "nh",
+  layer = 1,
+  x = 368,
+  y = 245,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/npc_head",
+}
+
+npc{
+  name = "fh",
+  layer = 1,
+  x = 128,
+  y = 109,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/navi",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 0,
+  width = 496,
+  height = 16,
+  pattern = "170",
+}
+
+tile{
+  layer = 2,
+  x = 480,
+  y = 16,
+  width = 24,
+  height = 384,
+  pattern = "170",
+}
+
+tile{
+  layer = 2,
+  x = 496,
+  y = 0,
+  width = 8,
+  height = 16,
+  pattern = "170",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 384,
+  width = 480,
+  height = 16,
+  pattern = "170",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 16,
+  width = 16,
+  height = 368,
+  pattern = "170",
+}
+
+tile{
+  layer = 2,
+  x = 232,
+  y = 376,
+  width = 32,
+  height = 8,
+  pattern = "552",
+}
+
+tile{
+  layer = 2,
+  x = 200,
+  y = 224,
+  width = 16,
+  height = 16,
+  pattern = "278",
+}
+
+tile{
+  layer = 2,
+  x = 200,
+  y = 288,
+  width = 16,
+  height = 16,
+  pattern = "278",
+}
+
+tile{
+  layer = 2,
+  x = 280,
+  y = 224,
+  width = 16,
+  height = 16,
+  pattern = "278",
+}
+
+tile{
+  layer = 2,
+  x = 280,
+  y = 288,
+  width = 16,
+  height = 16,
+  pattern = "278",
+}
+

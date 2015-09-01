@@ -1,0 +1,777 @@
+properties{
+  x = 320,
+  y = 640,
+  width = 640,
+  height = 240,
+  world = "dungeon_1",
+  floor = 0,
+  tileset = "15",
+  music = "same",
+}
+
+tile{
+  layer = 1,
+  x = 312,
+  y = 200,
+  width = 16,
+  height = 80,
+  pattern = "523",
+}
+
+tile{
+  layer = 1,
+  x = 552,
+  y = 200,
+  width = 16,
+  height = 48,
+  pattern = "523",
+}
+
+tile{
+  layer = 1,
+  x = 312,
+  y = -24,
+  width = 16,
+  height = 64,
+  pattern = "523",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 40,
+  width = 560,
+  height = 160,
+  pattern = "525",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 40,
+  width = 544,
+  height = 8,
+  pattern = "179",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 200,
+  width = 24,
+  height = 24,
+  pattern = "47",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 16,
+  width = 24,
+  height = 24,
+  pattern = "45",
+}
+
+tile{
+  layer = 1,
+  x = 600,
+  y = 16,
+  width = 24,
+  height = 24,
+  pattern = "46",
+}
+
+tile{
+  layer = 1,
+  x = 600,
+  y = 200,
+  width = 24,
+  height = 24,
+  pattern = "48",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 16,
+  width = 272,
+  height = 24,
+  pattern = "49",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 40,
+  width = 24,
+  height = 160,
+  pattern = "51",
+}
+
+tile{
+  layer = 1,
+  x = 600,
+  y = 40,
+  width = 24,
+  height = 160,
+  pattern = "50",
+}
+
+tile{
+  layer = 1,
+  x = 192,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "325",
+}
+
+tile{
+  layer = 1,
+  x = 192,
+  y = 48,
+  width = 16,
+  height = 128,
+  pattern = "326",
+}
+
+tile{
+  layer = 1,
+  x = 432,
+  y = 48,
+  width = 16,
+  height = 128,
+  pattern = "326",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 200,
+  width = 272,
+  height = 24,
+  pattern = "52",
+}
+
+tile{
+  layer = 1,
+  x = 568,
+  y = 200,
+  width = 32,
+  height = 24,
+  pattern = "52",
+}
+
+tile{
+  layer = 1,
+  x = 328,
+  y = 200,
+  width = 224,
+  height = 24,
+  pattern = "52",
+}
+
+tile{
+  layer = 1,
+  x = 328,
+  y = 16,
+  width = 176,
+  height = 24,
+  pattern = "49",
+}
+
+tile{
+  layer = 1,
+  x = 304,
+  y = 200,
+  width = 8,
+  height = 16,
+  pattern = "74",
+}
+
+tile{
+  layer = 1,
+  x = 544,
+  y = 200,
+  width = 8,
+  height = 16,
+  pattern = "74",
+}
+
+tile{
+  layer = 1,
+  x = 328,
+  y = 200,
+  width = 8,
+  height = 16,
+  pattern = "75",
+}
+
+tile{
+  layer = 1,
+  x = 568,
+  y = 200,
+  width = 8,
+  height = 16,
+  pattern = "75",
+}
+
+tile{
+  layer = 1,
+  x = 312,
+  y = 200,
+  width = 16,
+  height = 16,
+  pattern = "77",
+}
+
+tile{
+  layer = 1,
+  x = 552,
+  y = 200,
+  width = 16,
+  height = 16,
+  pattern = "77",
+}
+
+tile{
+  layer = 1,
+  x = 312,
+  y = 24,
+  width = 16,
+  height = 16,
+  pattern = "76",
+}
+
+tile{
+  layer = 1,
+  x = 328,
+  y = 24,
+  width = 8,
+  height = 16,
+  pattern = "73",
+}
+
+tile{
+  layer = 1,
+  x = 304,
+  y = 24,
+  width = 8,
+  height = 16,
+  pattern = "72",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "14",
+}
+
+tile{
+  layer = 1,
+  x = 592,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "15",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 192,
+  width = 8,
+  height = 8,
+  pattern = "16",
+}
+
+tile{
+  layer = 1,
+  x = 592,
+  y = 192,
+  width = 8,
+  height = 8,
+  pattern = "17",
+}
+
+tile{
+  layer = 1,
+  x = 592,
+  y = 48,
+  width = 8,
+  height = 144,
+  pattern = "238",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 48,
+  width = 8,
+  height = 144,
+  pattern = "237",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 192,
+  width = 544,
+  height = 8,
+  pattern = "236",
+}
+
+tile{
+  layer = 1,
+  x = 432,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "325",
+}
+
+tile{
+  layer = 1,
+  x = 192,
+  y = 176,
+  width = 16,
+  height = 24,
+  pattern = "363",
+}
+
+tile{
+  layer = 1,
+  x = 432,
+  y = 176,
+  width = 16,
+  height = 24,
+  pattern = "363",
+}
+
+tile{
+  layer = 1,
+  x = 520,
+  y = 16,
+  width = 80,
+  height = 24,
+  pattern = "49",
+}
+
+tile{
+  layer = 1,
+  x = 504,
+  y = 24,
+  width = 16,
+  height = 16,
+  pattern = "190",
+}
+
+tile{
+  layer = 1,
+  x = 520,
+  y = 24,
+  width = 8,
+  height = 16,
+  pattern = "73",
+}
+
+tile{
+  layer = 1,
+  x = 496,
+  y = 24,
+  width = 8,
+  height = 16,
+  pattern = "72",
+}
+
+tile{
+  layer = 1,
+  x = 112,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "69",
+}
+
+tile{
+  layer = 1,
+  x = 112,
+  y = 192,
+  width = 8,
+  height = 8,
+  pattern = "69",
+}
+
+tile{
+  layer = 1,
+  x = 112,
+  y = 48,
+  width = 8,
+  height = 144,
+  pattern = "71",
+}
+
+wall{
+  layer = 1,
+  x = 304,
+  y = 0,
+  width = 8,
+  height = 40,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 1,
+  x = 328,
+  y = 0,
+  width = 8,
+  height = 40,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 1,
+  x = 304,
+  y = 200,
+  width = 8,
+  height = 40,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 1,
+  x = 328,
+  y = 200,
+  width = 8,
+  height = 40,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 1,
+  x = 544,
+  y = 200,
+  width = 8,
+  height = 40,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 1,
+  x = 568,
+  y = 200,
+  width = 8,
+  height = 40,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+teletransporter{
+  layer = 1,
+  x = 312,
+  y = 240,
+  width = 272,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "Light/E1/dungeon_1/0",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 1,
+  x = 312,
+  y = -16,
+  width = 16,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "Light/E1/dungeon_1/2",
+  destination = "_side",
+}
+
+pickable{
+  layer = 1,
+  x = 176,
+  y = 165,
+  treasure_name = "piece_of_heart",
+  treasure_savegame_variable = "ph_dungeon1_1",
+}
+
+switch{
+  name = "switch1",
+  layer = 1,
+  x = 456,
+  y = 104,
+  subtype = "walkable",
+  sprite = "entities/switch",
+  needs_block = false,
+  inactivate_when_leaving = false,
+}
+
+switch{
+  name = "switch3",
+  layer = 1,
+  x = 568,
+  y = 104,
+  subtype = "walkable",
+  sprite = "entities/switch",
+  needs_block = false,
+  inactivate_when_leaving = false,
+}
+
+switch{
+  name = "switch2",
+  layer = 1,
+  x = 512,
+  y = 104,
+  subtype = "walkable",
+  sprite = "entities/switch",
+  needs_block = false,
+  inactivate_when_leaving = false,
+}
+
+door{
+  name = "door",
+  layer = 1,
+  x = 552,
+  y = 200,
+  direction = 3,
+  sprite = "entities/door_normal",
+  savegame_variable = "d1_1_p0",
+}
+
+destination{
+  name = "d11",
+  layer = 1,
+  x = 176,
+  y = 85,
+  direction = 1,
+  sprite = "entities/destination",
+}
+
+teletransporter{
+  layer = 1,
+  x = 168,
+  y = 56,
+  width = 16,
+  height = 16,
+  destination_map = "Light/E1/dungeon_1/2",
+  destination = "d42",
+  sprite = "entities/teletransporter",
+}
+
+destination{
+  name = "d8",
+  layer = 1,
+  x = 64,
+  y = 85,
+  direction = 1,
+  sprite = "entities/destination",
+}
+
+teletransporter{
+  layer = 1,
+  x = 56,
+  y = 56,
+  width = 16,
+  height = 16,
+  destination_map = "Light/E1/dungeon_1/2",
+  destination = "d42",
+  sprite = "entities/teletransporter",
+}
+
+chest{
+  name = "bk",
+  layer = 1,
+  x = 64,
+  y = 165,
+  treasure_name = "boss_key",
+  treasure_savegame_variable = "d1_2c2",
+  sprite = "entities/chest",
+}
+
+chest{
+  name = "chest",
+  layer = 1,
+  x = 464,
+  y = 61,
+  treasure_name = "big_key",
+  treasure_savegame_variable = "d1_2_c0",
+  sprite = "entities/chest",
+}
+
+stairs{
+  layer = 1,
+  x = 504,
+  y = 24,
+  direction = 1,
+  subtype = 1,
+}
+
+destination{
+  name = "d6",
+  layer = 1,
+  x = 512,
+  y = 53,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 1,
+  x = 504,
+  y = 24,
+  width = 16,
+  height = 16,
+  destination_map = "Light/E1/dungeon_1/6",
+  destination = "d1",
+}
+
+enemy{
+  layer = 1,
+  x = 264,
+  y = 101,
+  direction = 3,
+  breed = "green_knight_soldier",
+}
+
+enemy{
+  layer = 1,
+  x = 376,
+  y = 101,
+  direction = 3,
+  breed = "green_knight_soldier",
+}
+
+enemy{
+  name = "e2",
+  layer = 1,
+  x = 488,
+  y = 117,
+  direction = 0,
+  breed = "tentacle",
+}
+
+enemy{
+  name = "e1",
+  layer = 1,
+  x = 520,
+  y = 85,
+  direction = 0,
+  breed = "tentacle",
+}
+
+enemy{
+  name = "e4",
+  layer = 1,
+  x = 552,
+  y = 117,
+  direction = 0,
+  breed = "tentacle",
+}
+
+enemy{
+  name = "e3",
+  layer = 1,
+  x = 520,
+  y = 149,
+  direction = 0,
+  breed = "tentacle",
+}
+
+tile{
+  layer = 2,
+  x = 304,
+  y = 16,
+  width = 32,
+  height = 8,
+  pattern = "429",
+}
+
+tile{
+  layer = 2,
+  x = 304,
+  y = 216,
+  width = 32,
+  height = 8,
+  pattern = "430",
+}
+
+tile{
+  layer = 2,
+  x = 544,
+  y = 216,
+  width = 32,
+  height = 8,
+  pattern = "430",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 0,
+  width = 16,
+  height = 240,
+  pattern = "170",
+}
+
+tile{
+  layer = 2,
+  x = 16,
+  y = 224,
+  width = 624,
+  height = 16,
+  pattern = "170",
+}
+
+tile{
+  layer = 2,
+  x = 624,
+  y = 0,
+  width = 16,
+  height = 224,
+  pattern = "170",
+}
+
+tile{
+  layer = 2,
+  x = 16,
+  y = 0,
+  width = 608,
+  height = 16,
+  pattern = "170",
+}
+
+tile{
+  layer = 2,
+  x = 496,
+  y = 16,
+  width = 32,
+  height = 8,
+  pattern = "429",
+}
+

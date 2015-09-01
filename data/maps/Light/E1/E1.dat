@@ -1440,6 +1440,7 @@ tile{
 }
 
 destination{
+  name = "depuisd1",
   layer = 0,
   x = 208,
   y = 149,

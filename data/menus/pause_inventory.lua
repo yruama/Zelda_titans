@@ -2,9 +2,37 @@ local submenu = require("menus/pause_submenu")
 local inventory_submenu = submenu:new()
 
 local item_names = {
-  "feather",
   "lamp",
-  "wooden_key"
+  "boomerang",
+  "feather",
+  "bow",
+  "nothing",
+  "nothing",
+  "bottle_1",
+
+  "bombs_counter",
+  "hookshot",
+  "cane_of_somaria",
+  "magic_cape",
+  "nothing",
+  "nothing",
+  "bottle_2",
+
+  "fire",
+  "ice",
+  "darkness",
+  "light",
+  "glove",
+  "flippers",
+  "bottle_3",
+
+  "wooden_key",
+  "clay_key",
+  "rock_key",
+  "iron_key",
+  "pegasus_shoes",
+  "ordreducrepuscule",
+  "bottle_4",
 }
 
 function inventory_submenu:on_started()

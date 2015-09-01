@@ -3,13 +3,13 @@ local game = ...
 -- Define the existing dungeons and their floors for the minimap menu.
 game.dungeons = {
   [1] = {
-    floor_width = 1040,
-    floor_height = 696,
+    floor_width = 1600,
+    floor_height = 1600,
     lowest_floor = -1,
     highest_floor = 1,
-    maps = { "23", "24", "25", "27" },
+    maps = { "Light/E1/dungeon_1/0", "Light/E1/dungeon_1/1", "Light/E1/dungeon_1/2", "Light/E1/dungeon_1/3", "Light/E1/dungeon_1/4", "Light/E1/dungeon_1/5", "Light/E1/dungeon_1/6", "Light/E1/dungeon_1/7", "Light/E1/dungeon_1/8", "Light/E1/dungeon_1/9",  "Light/E1/dungeon_1/10", "Light/E1/dungeon_1/11" },
     boss = {
-      floor = -1,
+      floor = 0,
       x = 648,
       y = 144,
       savegame_variable = "b63",

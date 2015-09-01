@@ -94,7 +94,7 @@ local function dialog()
     end)
   end
   if int == 12 then
-  	hero:teleport("Dark/A0", 'from_chap1')
+  	hero:teleport("Dark/B0/B0_0", 'from_chap1')
   end
 end
 

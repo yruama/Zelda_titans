@@ -3,6 +3,15 @@ local game = map:get_game()
 
 function map:on_started()
 
+  local sensor_sword = map:get_entity('sensor_sword')
+  sensor_sword:set_enabled(false)
+  local as = game:get_value('ausecours')
+  if as == true then
+    ausecours:set_enabled(false)
+    sensor_quete:set_enabled(false)
+    sensor_sword:set_enabled(true)
+  end
+
   local entrance_names = {
     "G3_0"
   }
@@ -19,16 +28,49 @@ function map:on_started()
     end
   end
 
-  local sensor_epee = map:get_entity('sensor_epee')
-  sensor_epee.on_activated = function ()
+  local pnj = map:get_entity('ausecours')
+  local sensor_quete = map:get_entity('sensor_quete')
+  sensor_quete.on_activated = function ()
+    local m = sol.movement.create("path")
+    hero:freeze()
+    m:set_path({4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,2,2,2,2})
+    m:set_speed(80)
+    m:start(ausecours, function()
+      game:start_dialog("Quest-Dialog.chap1.attaque", function()
+        local n = sol.movement.create('path')
+        n:set_path({6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0})
+        n:set_speed(80)
+        n:start(ausecours, function()
+          sensor_quete:set_enabled(false)
+          ausecours:set_enabled(false)
+          game:set_value('ausecours', true)
+          game:start_dialog("Quest-Dialog.chap1.aventure", function()
+            local o = sol.movement.create('path')
+            hero:set_direction(1)
+            o:set_path({2,2,2,2})
+            o:set_speed(80)
+            o:start(hero, function ()
+              sensor_sword:set_enabled(true)
+              hero:unfreeze()
+            end)
+          end)
+        end)
+      end)
+    end)
+  end
+
+ 
+  sensor_sword.on_activated = function ()
     if not game:has_item('sword') then
-      game:start_dialog('Quest-Error.chap1.sword', function ()
-        hero:freeze()
-        local m = sol.movement.create("path")
-        m:set_path({2,2,2})
-        m:set_speed(80)
-        hero:set_animation("walking")
-        m:start(hero, function()
+      sol.audio.play_sound("navi")
+      game:start_dialog("Quest-Error.chap1.sword", function()
+          hero:freeze()
+          hero:set_direction(1)
+          local m = sol.movement.create("path")
+          m:set_path({2,2,2})
+          m:set_speed(80)
+          hero:set_animation("walking")
+          m:start(hero, function()
           hero:unfreeze()
         end)
       end)

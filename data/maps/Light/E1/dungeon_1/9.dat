@@ -262,8 +262,9 @@ enemy{
   direction = 0,
   breed = "khotor",
   rank = 2,
-  savegame_variable = "boss0",
+  savegame_variable = "d1_boss",
   treasure_name = "heart_container",
+  treasure_savegame_variable = "hc0",
 }
 
 door{
@@ -273,6 +274,14 @@ door{
   y = 208,
   direction = 3,
   sprite = "entities/door_normal",
+}
+
+destination{
+  layer = 1,
+  x = 160,
+  y = 221,
+  direction = 1,
+  default = true,
 }
 
 tile{
